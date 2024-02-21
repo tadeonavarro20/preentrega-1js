@@ -1,17 +1,17 @@
 
 function ingresarNombreApellido() {
-  var nombre = prompt("Por favor, ingresa tu nombre:");
-  var apellido = prompt("Ahora, ingresa tu apellido:");
+  let nombre = prompt("Por favor, ingresa tu nombre:");
+  let apellido = prompt("Ahora, ingresa tu apellido:");
   
   
-  var nombreCompleto = nombre + " " + apellido;
+  let nombreCompleto = nombre + " " + apellido;
   
   
   return nombreCompleto;
 }
 
 
-var nombreCompleto = ingresarNombreApellido();
+let nombreCompleto = ingresarNombreApellido();
 console.log("Nombre completo ingresado:", nombreCompleto);
 
 let clave = "12345";
